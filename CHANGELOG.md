@@ -9,6 +9,10 @@ and this project adheres to
 ### Added
 
 - cosmwasm-std: New const methods `Uint64::to_be_bytes`/`::to_le_bytes`.
+- cosmwasm-std: `MockQuerier` now supports adding custom behaviour for handling
+  Wasm queries via `MockQuerier::update_wasm` ([#1050]).
+
+[#1050]: https://github.com/CosmWasm/cosmwasm/issues/1050
 
 ### Changed
 
